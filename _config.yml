@@ -6,4 +6,5 @@ baseurl: ""
 url: "loveforgeter.com"
 github_username:  loveforgeter
 markdown: kramdown
+highlighter: pygments
 permalink: /blog/:year-:month-:day/:title.html
