@@ -32,7 +32,6 @@ $ pip install pygments
 $ gem install pygments.rb
 ```
 
-<br>
 二、使用
 -------
 
