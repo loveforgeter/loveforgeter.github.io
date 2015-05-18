@@ -8,3 +8,5 @@ github_username:  loveforgeter
 markdown: redcarpet
 highlighter: pygments
 permalink: /blog/:year-:month-:day/:title.html
+gems:
+    - jekyll-archives
