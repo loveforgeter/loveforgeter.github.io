@@ -17,6 +17,10 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
+$red-color: #ee6363;
+$blue-color: #6495ed;
+$green-color: #00cd00;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -28,6 +32,19 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+// Origin translation or copy
+.origin::before {
+	content:"[原]";
+	color:$green-color;
+}
+.copy::before {
+	content:"[转]";
+	color:$red-color;
+}
+.trans::before {
+	content:"[翻]";
+	color:$blue-color;
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

@@ -3,6 +3,7 @@ layout: post
 title: "Jekyll使用Pygments代码高亮"
 categories: blog
 tags: jekyll
+type: origin
 ---
 
 Jekyll自带语法高亮功能，是由[Pygments](http://pygments.org/)实现的，Pygments支持多种语言。Jekyll也支持[Rouge](http://rouge.jneen.net/)代码高亮
