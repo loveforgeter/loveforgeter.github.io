@@ -100,9 +100,9 @@ will update all pods to the newest versions permitted by the Podfile. You can us
 [cocoapods-pod-syntax]: http://guides.cocoapods.org/syntax/podfile.html#pod
 [committing-pods]: https://www.dzombak.com/blog/2014/03/including-pods-in-source-control.html
 
-### Project Structure
+### 项目结构 [Project Structure](https://github.com/futurice/ios-good-practices#project-structure)
 
-To keep all those hundreds of source files ending up in the same directory, it's a good idea to set up some folder structure depending on your architecture. For instance, you can use the following:
+项目可能会包含数千计的源文件，根据项目架构设计下目录结构是个不错的点子，例如你可以使用下面的目录结构：
 
     ├─ Models
     ├─ Views
@@ -110,7 +110,7 @@ To keep all those hundreds of source files ending up in the same directory, it's
     ├─ Stores
     ├─ Helpers
 
-First, create them as groups (little yellow "folders") within the group with your project's name in Xcode's Project Navigator. Then, for each of the groups, link them to an actual directory in your project path by opening their File Inspector on the right, hitting the little gray folder icon, and creating a new subfolder with the name of the group in your project directory.
+首先，打开Xcode的Project Navigator，找到以你的工程名字命名的主分组，在其中建立以上分组（黄色的文件夹）。然后对于每个子分组，将其链接到实际的目录：选中分组，打开右边的File Inspector，点击灰色的文件夹图标，定位到你的工程目录，以分组组名建立文件夹并选中。
 
 #### Localization
 
